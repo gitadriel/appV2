@@ -1,0 +1,419 @@
+.btnmenu{
+
+           background: rgba(255, 255, 255, 0.24);
+
+   
+   border-width: 0px;
+   border-right-width:0px;
+   border-bottom-width:0px;
+   
+   border-left-width:0px;
+       width: 100%;
+  height: 106%;
+ 
+}
+
+.btnsubmenu{
+
+        background: rgba(255, 255, 255, 0.24);
+
+   
+   border-width: 0px;
+   border-right-width:0px;
+      border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-bottom-color: rgba(0, 134, 251, 0.19);
+  
+
+}
+
+
+h2 {
+
+	    top: 5;
+    	position: absolute;
+    	left: 60%;
+    	color: #dedede;
+
+
+}
+
+.btn1 {
+
+
+	    position: absolute;
+    	top: 100;
+    	left: 90%;
+}
+
+.btn2 {
+
+
+	    position: absolute;
+    	top: 100;
+    	left: 80%;
+}
+
+
+.btnON {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #fffcff;
+  font-size:20px;
+  background: #5ed68e;
+  
+  border: solid #d3dde3 3px;
+  text-decoration: none;
+    position: absolute;
+    top: 13%;
+        left: 33%;
+        width: 70px;
+   
+    text-align: center;
+
+}
+
+#LigarLed1 {
+position: absolute;
+    top: 30%;
+
+}
+
+
+
+.btnOFF {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #fffcff;
+  font-size: 20px;
+  background: #DE425F;
+  
+  border: solid #d3dde3 3px;
+
+	position: absolute;
+       top: 13%;
+    left: 63%;
+        width: 70px;
+   
+    text-align: center;
+}
+
+button:active{
+
+    border-color: rgba(218, 163, 55, 0.57);
+
+
+}
+
+
+#DesligarLed1 {
+  position: absolute;
+      top: 30%;
+
+  
+}
+
+
+
+label {
+
+  color: aliceblue;
+    position: absolute;
+     top: 6%;
+
+    font-size: 25;
+    left: 33%;
+
+}
+
+#labellampada2{
+
+  position: absolute;
+   top: 22%;
+}
+
+#conteudolampada{
+
+background: #f7607c;
+
+}
+
+
+
+
+
+#temperatura{
+position: absolute;
+top: 19%
+    
+
+
+}
+
+
+#dia{
+  position: absolute;
+top: 6%
+    
+
+
+
+}
+
+#hora{
+  position: absolute;
+  top: 12%;
+    left: 61%;
+       
+
+
+}
+
+#relogio{
+
+
+      position: absolute;
+    font-size: 70;
+    left: 33%;
+    top: 12%;
+    color: aliceblue;
+        font-size: 25px;
+
+
+
+}
+
+#graus{
+
+
+      font-size: 250;
+    color: aliceblue;
+    position: absolute;
+    top: 27%;
+    left: 38%;
+        font-size: 80px;
+
+}
+img	{
+	    width: 60;
+
+}
+
+
+.on:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+body{
+
+	background-image: url("image/fundo.jpg");
+	    background-size: 301% 100%;
+    background-repeat: no-repeat;
+}
+
+#sub{
+
+	width: 47;
+
+}
+
+.on{
+      position: absolute;
+    top: 24%;
+    left: 76%;
+
+   
+      
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-width: 0;
+         background-color: rgba(255, 255, 255, 0);
+      outline: none;
+          width: 25%;
+             
+   
+}
+.on:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+
+
+
+.down{
+          position: absolute;
+    top: 24%;
+    left: 52%;
+
+   
+      
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-width: 0;
+         background-color: rgba(255, 255, 255, 0);
+      outline: none;
+          width: 25%;
+   
+}
+.down:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+
+
+.up{
+          position: absolute;
+    		    top: 8%;
+    		    left: 52%;
+   
+      
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-width: 0;
+         background-color: rgba(255, 255, 255, 0);
+      outline: none;
+          width: 25%;
+   
+}
+.up:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+
+
+
+.fan{
+          position: absolute;
+    top: 24%;
+    left: 29%;
+   
+      
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-width: 0;
+         background-color: rgba(255, 255, 255, 0);
+      outline: none;
+          width: 25%;
+   
+}
+.fan:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+
+
+
+
+.fan1{
+      position: absolute;
+        top: 8%;
+        left: 29%;
+   
+      
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-width: 0;
+         background-color: rgba(255, 255, 255, 0);
+      outline: none;
+          width: 25%;
+   
+}
+.fan1:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+
+
+
+.maxfrio{
+         position: absolute;
+        top: 8%;
+    left: 76%;
+   
+      
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-width: 0;
+         background-color: rgba(255, 255, 255, 0);
+      outline: none;
+          width: 25%;
+   
+}
+.maxfrio:active{
+
+
+	-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}
+
+
+
+
+hr{
+
+
+	    background: rgba(29, 130, 235, 0.48);
+    padding: 1px;
+    border-width: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 61%;
+    position: absolute;
+    left: 109px;
+}
+
+
+
+button:focus{
+    outline: none;
+}

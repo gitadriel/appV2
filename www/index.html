@@ -1,0 +1,124 @@
+<html lang="pt-br">
+<head>
+	<title>Menu</title>
+</head>
+<LINK href="css.css" rel="stylesheet" type="text/css" />
+
+
+<body></body>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/ard.js"></script>
+
+<table style="width:100%" >
+<tr>
+
+	
+	<td style="width:17%"  ><button class="btnmenu" onclick="return trocar(telainicial,submenusala,submenuquarto,conteudolampada,conteudoar);" ><img src="image/home.png"></button></td>
+
+
+	<td style="width:17%" rowspan="3" >
+			    <div id="submenusala" style="display:none"   >
+			    	<button class="btnsubmenu" onclick="return trocar(conteudolampada,submenusala,submenuquarto);" ><img id="sub" src="image/lampada.png"></button><br>
+			     	<button class="btnsubmenu" onclick="return trocar(conteudoar,submenusala,submenuquarto);"><img id="sub" src="image/AR.png"></button><br>
+			     	<button class="btnsubmenu"><img id="sub" src="image/controletv.png"></button>
+
+
+	  			</div>
+
+	  			
+			    <div id="submenuquarto" style="display:none">
+			    	<button class="btnsubmenu"><img id="sub"  src="image/lampada.png"></button><br>
+			     	<button class="btnsubmenu"><img id="sub"  src="image/AR.png"></button><br>
+
+
+	  			</div>
+	  		</td>
+	  		
+		    
+		    <td style="width:100%" rowspan="5" >
+
+		    	<!--conteudos-->
+		    	<div id="conteudolampada" style="display:none">
+
+			    	<label >Lâmpada 1</label>
+				    	<button type="button" class="btnON"id="LigarLpd" onClick="AcenderApagar(this.id)" >ON</button>
+	        			<button type="button" class="btnOFF" id="DesligarLpd" onClick="AcenderApagar(this.id)">OFF</button>
+
+
+	        	
+
+	        			
+
+	       		</div>
+
+
+
+	       		<div id="conteudoar" style="display:none">
+	       			<button class="fan" type="button" id="velocidade" onClick="EnviarDados(this.id)"><img src="image/fan.png"></button><br><br><br><br>
+	       			<button class="fan1" type="button" id="potencia" onClick="EnviarDados(this.id)"><img src="image/fan1.png"></button>
+	       			<button class="on" type="button" id="OnOffAr" onClick="EnviarDados(this.id)"><img src="image/on.png"></button>
+	       			<button class="maxfrio" type="button" id="swimming" onClick="EnviarDados(this.id)"><img src="image/maxfrio.png"></button>
+	       			<button class="up" type="button" id="MaisAr" onClick="EnviarDados(this.id)"><img src="image/up.png"></button>
+	       			<button class="down" type="button" id="MenosAr" onClick="EnviarDados(this.id)"><img src="image/down.png"></button><br>
+	       			
+	
+
+
+	       		</div>
+
+
+
+
+
+
+	       		<div id="telainicial" style="display:block">
+	       		
+	       		<div id="relogio" ></div>
+	       			
+	       		<label id="temperatura">Temperatura: </label><span id="graus">25°</span>
+	       		<label id="dia">Dia 31-03-2016</label>
+	       		
+	       	
+
+	       		</div>
+		    </td>
+</tr>
+  <tr>
+
+  			<br>
+  			
+		    <td style="width:17%"  ><button class="btnmenu" onclick="return trocar(submenusala,submenuquarto,conteudolampada,telainicial,conteudoar);"><img src="image/tv.png"></button></td>
+		   
+		    
+
+		  	 
+			
+		    
+  </tr>
+
+  <tr>
+  	<td><button class="btnmenu" onclick="return trocar(submenuquarto,submenusala,conteudolampada,telainicial,conteudoar);" ><img src="image/CAMA.png"></button></td>
+  </tr>
+  
+   <tr >
+  	<td><button class="btnmenu" onclick="return trocarTEMP(submenusala,submenuquarto,conteudolampada,telainicial,conteudoar);"><img src="image/COZINHA.png"></button></td>
+  </tr>
+   <tr >
+  	<td><button class="btnmenu" onclick="return trocarTEMP(submenusala,submenuquarto,conteudolampada,telainicial,conteudoar);"><img src="image/cadeado.png"></button></td>
+  </tr>
+
+  <tr>
+  	<td><button class="btnmenu" onclick="return trocarTEMP(submenusala,submenuquarto,conteudolampada,telainicial,conteudoar);"><img src="image/GARAGEM.png"></button></td>
+  	
+  </tr>
+
+   </tr>
+</table>
+
+
+
+</body>
+</html>
